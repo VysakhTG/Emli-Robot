@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm Emli anime-theme management bot [✨](https://te.legra.ph/file/074ef8d210745e3380baf.jpg)
+✪ I'm Nezuko anime-theme management bot [✨](https://telegra.ph/file/e25fcadd26840eac46d14.jpg)
 ────────────────────────
 × *Bot Uptime:* `{}`
 × `{}` *users, across* `{}` *chats*
@@ -110,7 +110,7 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-EMI_IMG = "https://te.legra.ph/file/074ef8d210745e3380baf.jpg"
+EMI_IMG = "https://telegra.ph/file/e25fcadd26840eac46d14.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @shado_hackers \
@@ -229,7 +229,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hi👋 I'm Emli robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
+            f"<b>Hi👋 I'm Nezuko robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -360,15 +360,15 @@ def emli_about_callback(update, context):
     query = update.callback_query
     if query.data == "emli_":
         query.message.edit_text(
-            text="๏ I'm *Emli*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *Nezuko*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_Emli's licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for Emli.",
+            "\n\n Nezuko's licensed under the GNU General Public License v3.0_"
+            "\n\n Click on button bellow to get basic help for Nezuko.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
@@ -435,7 +435,7 @@ def emli_about_callback(update, context):
         )
     elif query.data == "emli_support":
         query.message.edit_text(
-            text="*๏ Emli support chats*"
+            text="*๏ Nezuko support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on Emli.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -455,7 +455,7 @@ def emli_about_callback(update, context):
 
     elif query.data == "emli_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credis for Emli</b>\n"
+            text=f"<b>๏ Credis for Nezuko</b>\n"
             f"\nHere Developers Making The Emli",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
@@ -480,7 +480,7 @@ def Source_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="LUSIFER", url="https://t.me/shado_hackers"),
+                    InlineKeyboardButton(text="LUSIFER", url="https://t.me/VysakhXD"),
                     InlineKeyboardButton(text="𝚂𝚞𝚙𝚙𝚘𝚛𝚝", url="https://t.me/OMG_info"),
                  ],
                  [
@@ -791,7 +791,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**Emli Robot Started!**
+                f"""**Nezuko Robot Started!**
 
 **Python:** `{memek()}`
 **Telegram Library:** `v{peler}`""",
