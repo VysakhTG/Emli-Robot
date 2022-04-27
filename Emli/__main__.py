@@ -441,8 +441,8 @@ def emli_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/OMG_info"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/nexleech"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/VysakhXDo"),
+                    InlineKeyboardButton(text="Updates", url="ech"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emli_"),
@@ -461,7 +461,7 @@ def emli_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="LUSIFER", url="https://mobile.twitter.com/Lusifer_noob"),
+                    InlineKeyboardButton(text="𝚅𝚈𝚂𝙰𝙺𝙷 ᡧ", url="https://t.me/VysakhXD"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emli_"),
@@ -480,15 +480,15 @@ def Source_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="LUSIFER", url="https://t.me/VysakhXD"),
+                    InlineKeyboardButton(text="𝚅𝚈𝚂𝙰𝙺𝙷 ᡧ", url="https://t.me/VysakhXD"),
                     InlineKeyboardButton(text="𝚂𝚞𝚙𝚙𝚘𝚛𝚝", url="https://t.me/OMG_info"),
                  ],
                  [
-                    InlineKeyboardButton(text="𝙻𝚎𝚎𝚌𝚑", url="https://t.me/nexleech"),
-                    InlineKeyboardButton(text="𝙾𝚝𝚑𝚎𝚛 𝚋𝚘𝚝", url="https://t.me/OMG_info/3990"),
+                    InlineKeyboardButton(text="𝙻𝚎𝚎𝚌𝚑", url="hps://t.mech"),
+                    InlineKeyboardButton(text="𝙾𝚝𝚑𝚎𝚛 𝚋𝚘𝚝", url="h/OMG_3990"),
                  ],
                  [
-                    InlineKeyboardButton(text="𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 V2", url="https://t.me/EMLIXbot"),
+                    InlineKeyboardButton(text="𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 V2", url="htt"),
                     InlineKeyboardButton(text="Source", url="tg://need_update_for_some_feature"),
                  ],
                  [
@@ -496,7 +496,7 @@ def Source_about_callback(update, context):
                     InlineKeyboardButton(text="𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴", url="https://cloud.mongodb.com/"),
                  ],
                  [
-                    InlineKeyboardButton(text="Follow meh", url="https://mobile.twitter.com/Shado_hackers"),
+                    InlineKeyboardButton(text="Follow meh", url="hts"),
                     InlineKeyboardButton(text="𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴", url="https://www.python.org/"),
                  ],
                  [
